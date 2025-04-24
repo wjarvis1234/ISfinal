@@ -1,0 +1,92 @@
+/* General page styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #e6f2e6; /* light green background */
+    color: #1b3d1b; /* dark green text */
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Navigation bar */
+  nav {
+    background-color: #2e8b57; /* sea green */
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1em;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Header */
+  .hero {
+    background-color: #3cb371; /* medium sea green */
+    color: white;
+    text-align: center;
+    padding: 2rem;
+    border-bottom: 4px solid #2e8b57;
+  }
+  
+  h1, h2 {
+    margin: 0.5em 0;
+  }
+  
+  /* Content sections */
+  .section {
+    background-color: white;
+    margin: 2rem auto;
+    padding: 2rem;
+    width: 85%;
+    max-width: 800px;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Lists */
+  ol, ul {
+    text-align: left;
+    margin-left: 2rem;
+    line-height: 1.6;
+  }
+  
+  /* Image styling */
+  img {
+    border-radius: 8px;
+    max-width: 100%;
+    height: auto;
+    margin-top: 1rem;
+  }
+  
+  /* YouTube video container */
+  .video-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 1.5rem;
+  }
+  
+  /* Footer */
+  footer {
+    text-align: center;
+    padding: 1.5rem;
+    background-color: #2e8b57;
+    color: white;
+    margin-top: 2rem;
+  }
+  
+  footer a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+  }
+  
